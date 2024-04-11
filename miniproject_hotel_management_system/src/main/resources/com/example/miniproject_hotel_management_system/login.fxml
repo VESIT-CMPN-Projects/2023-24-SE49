@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stack_form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject_hotel_management_system.Logincontroller">
+   <children>
+      <AnchorPane fx:id="main_form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="300.0" styleClass="left-form" stylesheets="@login.css" StackPane.alignment="TOP_LEFT">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="111.0" layoutX="96.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@building.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="72.0" layoutY="186.0" text="Hotel Management" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="300.0" styleClass="white-bg" stylesheets="@login.css" StackPane.alignment="TOP_RIGHT">
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="47.0" layoutX="140.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@user2.png" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="83.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="37.0" prefWidth="98.0" text="Sign In" textFill="#581b86">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" alignment="TOP_CENTER" layoutX="54.0" layoutY="159.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="220.0" promptText="username" stylesheets="@login.css">
+               <styleClass>
+                  <String fx:value="textfield" />
+                  <String fx:value="textfield" />
+               </styleClass>
+            </TextField>
+            <Button fx:id="loginbtn" defaultButton="true" layoutX="120.0" layoutY="269.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="87.0" styleClass="login-btn" stylesheets="@login.css" text="Login">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="password" alignment="TOP_CENTER" layoutX="54.0" layoutY="213.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="220.0" promptText="password" styleClass="textfield" stylesheets="@login.css" />
+            <Button fx:id="close" layoutX="235.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="47.0" styleClass="close" stylesheets="@login.css" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@close.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

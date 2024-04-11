@@ -1,0 +1,222 @@
+.top-form
+{
+-fx-backgroud-color:#fff;
+-fx-border-color:#000;
+-fx-border--width: .4px .4px 0px .4px;
+}
+
+.main-top-form
+{-fx-background-color:#ddd;
+-fx-border-color:#000;
+-fx-border-width:0px 0px .4px 0px;
+
+
+}
+.nav-form
+{
+-fx-background-color:linear-gradient(to bottom right, #2e3ca4,#581b86);
+-fx-border-width: .4px 0px .4px .4px;
+
+}
+
+.card-form
+{
+-fx-background-color:linear-gradient(to bottom right, #444857,#537e90);
+-fx-border-width: .4px 0px .4px .4px;
+
+}
+.nav-btn
+{
+-fx-backgroud-color:transparent;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"Arial";
+-fx-alignment:CENTER_LEFT;
+
+}
+
+.logout-btn
+{
+-fx-background-color:linear-gradient(to bottom right, #2e3ca4,#581b86);
+-fx-background-radius:20px;
+-fx-cursor:hand;
+}
+
+.login-btn:hover
+{-fx-background-color:#8c84ff;
+}
+
+.white-bg
+{-fx-background-color:#fff;
+-fx-background-radius:10px;
+
+}
+
+.shadow
+{-fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.4),4,0,0,0);
+}
+
+.close
+{-fx-background-color:transparent;
+-fx-cursor:hand;
+}
+
+.close:hover
+{-fx-background-color:#e03f5a;
+}
+
+.minimize
+{
+-fx-background-color:transparent;
+-fx-cursor:hand;
+}
+
+.minimize:hover
+{
+-fx-background-color:#efefef;
+}
+
+/*AVAILABLE ROOMS*/
+
+.textfield{
+-fx-background-color:#fff;
+-fx-border-color:linear-gradient(to right, #444857, #537e90);
+-fx-border-width:0px 0px .8px 0px;
+-fx-font-size:13px;
+-fx-font-family:"tahoma";
+}
+.textfield:focused{
+-fx-border-color:linear-gradient(to bottom right, #2f3f89,#9231b5);
+-fx-border-width:0px 0px 1.5px 0px;
+}
+
+.text-box{
+-fx-background-color:#fff;
+-fx-background-radius:5px;
+-fx-border-color:linear-gradient(to right, #444857, #537e90);
+-fx-border-width:.8px;
+-fx-border-radius:.5px;
+-fx-font-family:"tahoma";
+}
+.text-box:focused{
+-fx-border-color:linear-gradient(to bottom right, #2f3f89, #9231b5);
+-fx-border-width:1.5px;
+}
+
+.add-btn{
+-fx-background-color:#3e608c;
+-fx-background-radius:8px;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"tahoma";
+}
+.add-btn:hover{
+-fx-background-color:#6597d3;
+}
+
+.update-btn{
+-fx-background-color:#754186;
+-fx-background-radius:8px;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"tahoma";
+}
+.update-btn:hover{
+-fx-background-color:#c375dd;
+}
+
+.delete-btn{
+-fx-background-color:#9d374a;
+-fx-background-radius:8px;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"tahoma";
+}
+.delete-btn:hover{
+-fx-background-color:#e4657e;
+}
+
+.clear-btn{
+-fx-background-color:#9d6245;
+-fx-background-radius:8px;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"tahoma";
+}
+.clear-btn:hover{
+-fx-background-color:#e49c7b;
+}
+
+.receipt-btn
+{
+-fx-background-color:#408654;
+-fx-background-radius:8px;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"Tohoma";
+}
+
+.receipt-btn:hover
+{-fx-background-color:73da90#
+}
+
+.check-in-btn{
+-fx-background-color:#468090;
+-fx-background-radius:8px;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-font-family:"tahoma";
+}
+.check-in-btn:hover{
+-fx-background-color:#6edl6e;
+}
+
+
+/* styles.css */
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+    -fx-border-color: linear-gradient(to bottom right, #2f3f89, #9231b5);
+    -fx-border-radius: 8px;
+}
+
+da.table-view .column-header-background {
+    -fx-border-color: linear-gradient(to bottom right, #2f3f89, #9231b5);
+    -fx-background-insets: 0 0 0 0;
+}
+
+.table-view .column-header, .filter {
+ -fx-background-color:linear-gradient(to bottom right, #2e3ca4,#581b86);
+ -fx-border-color:#000;
+ -fx-border-width: .4px 0px .4px .4px;
+    -fx-size: 28px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill:#fff;
+}
+
+
+.search
+{
+-fx-background-color:linear-gradient(to bottom ,#3e6bae,#224e75);
+-fx-background-radius:20px 5px 20px 5px;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+-fx-cursor:hand;
+-fx-font-family:"Tohoma";
+
+}
+
+.search:focused
+{
+-fx-background-color:linear-gradient(to bottom, #649de4,#3e78a7);
+}
